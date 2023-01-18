@@ -1,0 +1,4 @@
+cd 'C:\Users\kmgtp\source\Fizyka\'
+set title "Tor ruchu czastki w polu elektrycznym"
+splot "Wyniki/Gnuplot/dane_wyniki_gnuplot.dat" using 1:2:3 title 'Ladunki' pt 7 ps 1, "Wyniki/Gnuplot/ladunek_wyniki_gnuplot.dat" using 1:2:3 title 'Tor ruchu' pt 7 ps 1
+pause -1

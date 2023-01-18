@@ -1,0 +1,30 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe kompiluj aktywny plik",
+            "command": "C:\\MinGW\\bin\\g++.exe",
+            "args": [
+                "-std=c++17",
+                "-I",
+                "${fileDirname}",
+                "-g",
+                "${fileDirname}/*.cpp",
+                "-o",
+                "${workspaceFolder}/${fileBasenameNoExtension}.o"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Zadanie wygenerowane przez debuger."
+        }
+    ],
+    "version": "2.0.0"
+}
